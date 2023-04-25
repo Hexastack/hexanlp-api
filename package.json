@@ -1,0 +1,30 @@
+{
+  "name": "hexanlp-api",
+  "version": "0.0.1",
+  "description": "Implementation of hexanlp api",
+  "main": "index.js",
+  "keywords": [
+    "api",
+    "nlp",
+    "ai",
+    "bot",
+    "chatbot",
+    "ES6"
+  ],
+  "scripts": {
+    "test": "nyc mocha --timeout 5000 --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hexastack/hexanlp-api.git"
+  },
+  "author": "Hexastack <contact@hexastack.com>",
+  "license": "BSD-4-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.0",
+    "nyc": "^15.1.0"
+  }
+}
